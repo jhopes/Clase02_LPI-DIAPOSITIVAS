@@ -18,7 +18,7 @@ public class ClsEstudiante implements ClsPersona,ClsAnimal{
     
     
     public void matricula(){        
-    System.out.println(e.getNombre()+"\t"+e.getApellido()+"\t Yupi!... me estoy matriculando");
+    System.out.println(e.getNombre()+"\t"+e.getApellido()+"\t Yupi!... me estoy matriculando  siisisisi");
     }
 
      @Override
