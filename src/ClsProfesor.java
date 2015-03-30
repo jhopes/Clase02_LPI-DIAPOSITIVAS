@@ -8,7 +8,7 @@
  *
  * @author JOEL
  */
-public class ClsProfesor extends ClsPersona {
+public class ClsProfesor implements ClsPersona, ClsAnimal {
     
     Profesor p;
 
@@ -23,6 +23,11 @@ public class ClsProfesor extends ClsPersona {
     @Override
     public String asistencia_clases(){
     return p.getNombre()+"\tSoy puntual";
+    }
+
+    @Override
+    public void correr() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

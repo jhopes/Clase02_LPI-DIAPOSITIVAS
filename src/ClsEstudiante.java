@@ -8,12 +8,11 @@
  *
  * @author JOEL
  */
-public class ClsEstudiante  extends ClsPersona{
+public class ClsEstudiante implements ClsPersona,ClsAnimal{
     
     Estudiante e ;
 
-    public ClsEstudiante(Estudiante e) {
-        
+    public ClsEstudiante(Estudiante e) {        
         this.e = e;
     }
     
@@ -22,9 +21,19 @@ public class ClsEstudiante  extends ClsPersona{
     System.out.println(e.getNombre()+"\t"+e.getApellido()+"\t Yupi!... me estoy matriculando");
     }
 
-    @Override
-    public String asistencia_clases() {    
-        return e.getNombre()+"\tSoy puntual";    
+     @Override
+    public String asistencia_clases(){
+    return e.getNombre()+"\tSoy puntual";
     }
+
+    @Override
+    public void correr() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   
+
+   
+    
        
 }

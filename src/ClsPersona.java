@@ -8,6 +8,6 @@
  *
  * @author JOEL
  */
-public abstract class ClsPersona {
+public interface ClsPersona {
    public abstract String asistencia_clases(); 
 }

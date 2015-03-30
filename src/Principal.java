@@ -19,9 +19,12 @@ public class Principal {
         e.setNombre("Juan");
         e.setApellido("Pastrulo");
         p.setNombre("JHOPES");
+        
         ClsEstudiante ce = new ClsEstudiante(e);
         ce.matricula();
+        
         System.out.println(ce.asistencia_clases());
+        
         ClsProfesor cp = new ClsProfesor(p);
         System.out.println(cp.asistencia_clases());
         cp.dictar_clase();
