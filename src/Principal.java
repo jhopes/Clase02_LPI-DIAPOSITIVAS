@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+//  EXTENDS CLASE ABSTRACTA Y SOLO SE UTILIZA A UNA CLASE
+//  INTERFACE =PARA HACER HERENCIA MULTIPLE y IMPLEMENTS SOLO ES PARA INTERFACE
+//OVERRIDE=SOBREESCRIBE UN METODO EXISTENTE
 /**
  *
  * @author JOEL
