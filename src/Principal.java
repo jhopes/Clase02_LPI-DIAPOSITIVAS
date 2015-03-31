@@ -18,8 +18,8 @@ public class Principal {
     public static void main(String[] args) {
         Estudiante e = new Estudiante();
         Profesor p = new Profesor();
-        e.setNombre("Juan");
-        e.setApellido("Pastrulo");
+        e.setNombre("Pedrito");
+        e.setApellido("liseth");
         p.setNombre("JHOPES");
         
         ClsEstudiante ce = new ClsEstudiante(e);
